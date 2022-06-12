@@ -3,6 +3,8 @@ html {
     color: rgb(133, 131, 131);
 }
 
+
+
 Header {
     border: 6px double rgb(253, 108, 130);
     border-radius: 10%;
@@ -14,10 +16,14 @@ Header {
 
 }
 
+h1{
+    text-transform: uppercase;
+}
 nav {
     padding-top: em;
     font-size: 12pt;
     font-weight: normal;
+    
 }
 
 
@@ -25,5 +31,6 @@ img {
 
     padding: .5em .75em;
     padding-top: .5em;
-    margin: .5em;
+    margin-top: .25em;
+
 }
