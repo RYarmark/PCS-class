@@ -101,9 +101,14 @@ a:visited {
     color: black;
 }
 
-a:hover {
-    color: rgb(121, 121, 121);
+a:hover img {
+    transform: scale(1.1);
 }
+
+a:hover {
+    color: rgb(90, 90, 90);
+}
+
 
 body {
     background-image: url("../images/Background1.jpg");
