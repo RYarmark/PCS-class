@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        body {
+
+            font-size: larger;
+            font-weight: bold;
+            display: grid;
+            gap: 2em;
+            width: 50%;
+            margin: auto;
+            grid-template-rows: repeat(6, 150px);
+            grid-template-columns: 150px;
+            grid-template-areas:
+                "six"
+                "three"
+                "four"
+                "two"
+                "one"
+                "five";
+            margin-top: 3em;
+
+        }
+
+
+        @media screen and (min-width: 600px) {
+            body {
+                grid-template-rows: 150px 150px 150px;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:
+                    "one two"
+                    "three four"
+                    "five six ";
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            body {
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 150px 150px;
+                grid-template-areas:
+                    "two six five"
+                    "three one four";
+            }
+        }
+
+
+        body :nth-child(1) {
+            background-color: orange;
+            color: blue;
+            grid-area: one;
+        }
+
+        body :nth-child(2) {
+            grid-area: two;
+            background-color: green;
+
+        }
+
+        body :nth-child(3) {
+            background-color: blue;
+            color: pink;
+            grid-area: three;
+        }
+
+        body :nth-child(4) {
+            background-color: purple;
+            color: yellow;
+            grid-area: four;
+        }
+
+        body :nth-child(5) {
+            color: purple;
+            background-color: red;
+            grid-area: five;
+        }
+
+        body :nth-child(6) {
+            color: orange;
+            background-color: black;
+            grid-area: six;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>Blue</div>
+    <div>Black</div>
+    <div>Pink</div>
+    <div>Yellow</div>
+    <div>Purple</div>
+    <div>Orange</div>
+
+</body>
+
+</html>
