@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estuff</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
+        <div class="container my-0 p-1">
+
+            <div>
+                <ul class="navbar-nav me-auto mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signUp">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#financials">Financials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container rounded-bottom mt-5  p-4 text-center bg-secondary bg-opacity-50">
+        <p class="fw-bolder fs-3 p-2 text-center text-uppercase">Estuff</p>
+        <p class="text-center fw-bold fs-4 p-2">A <span class="fst-italic">PCS</span> Company </p>
+    </div>
+    <div id="products" class="container mt-4">
+        <h2>Products</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, mollitia delectus consequatur facilis
+            laudantium ea possimus quas aliquam rerum in eligendi expedita repudiandae accusantium reiciendis ducimus
+            mos odit dolore!</P>
+        <div class="row">
+            <div class=" col-md-4 border-end border-2 border-dark">
+                <h3 class="text-center">Computer</h3>
+                <img src="images/macworld.jpg" class="mx-auto d-block img-fluid">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum possimus mollitia eum eligendi
+                    impedit commodi iure quaerat nemo, quae voluptas quidem eius ducimus consectetur! Quam soluta,
+                    voluptate
+                    provident obcaecati ab vero tempora ut placeat ad. Dolores natus aliquid
+                    ea error rem quidem dignissimos quae dolor!</p>
+            </div>
+
+            <div class="col-md-4 border-end border-2 border-dark">
+                <h3 class="text-center">Choir</h3>
+                <video src="images/El Hanaar Hazeh.mp4" class="mx-auto d-block img-fluid" controls
+                    poster="images/shira.png"></video>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illum possimus mollitia eum eligendi
+                    impedit commodi iure quaerat nemo, quae voluptas quidem eius ducimus consectetur! Quam soluta,
+                    voluptate
+                    ea error rem quidem dignissimos quae dolor!</p>
+
+            </div>
+
+            <div class="col-md-4">
+                <h3 class="text-center">Candy</h3>
+
+                <img src="images/Candy.png" class="mx-auto d-block img-fluid">
+                <p>Lorem ipsum dolor sit ame commodi iure quaerat nemo, quae voluptas quidem eius ducimus consectetur!
+                    Quam
+                    soluta, voluptate
+                    tempore culpa excepturi ipsa, provident obcaecati ab vero tempora ut placeat ad. Dolores natus
+                    aliquid
+                    ea error rem quidem dignissimos quae dolor!</p>
+            </div>
+        </div>
+        <div id="signUp" class="container rounded-3 mt-3 my-4 p-5 text-center bg-secondary bg-opacity-50">
+            <h2>Sign Me Up!</h2>
+            <form method="post" action="post.php">
+                <div class="mb-4 mt-4 p-2 d-lg-inline ">
+                    <label>Name:
+                        <input class="rounded-3 shadow-lg" name="name" placeholder="Your Name" required />
+                    </label>
+                </div>
+                <div class="mb-4 mt-4 d-lg-inline">
+                    <label class="d-inline">Email:
+                        <input class="rounded-3 shadow-lg" placeholder="Your Email" type="email" name="email"
+                            required />
+                    </label>
+                </div>
+                <div class="mb-4 mt-4 d-lg-inline">
+                    <button class="rounded-3 shadow-lg" type="submit">Sign Me Up!</button>
+            </form>
+        </div>
+    </div>
+    <div id="financials" class="container mt-3 ">
+        <h2>Financials</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos aliquid nihil eaque ducimus dicta nemo
+            molestiae consequatur accusantium quisquam incidunt recusandae delectus blanditiis possimus rem sunt,
+            repudiandae quibusdam praesentium. Quaerat!</p>
+        <div class="mx-auto table-responsive w-75 ">
+            <p class="text-center fw-bold fs-5">Profits-by Quarter</p>
+            <table class="table-responsive table table-bordered table-hover  table-sm">
+
+                <thead>
+                    <tr class="text-center">
+                        <th>Year</th>
+                        <th>First-Quarter</th>
+                        <th>Second-Quarter</th>
+                        <th>Third-Quarter</th>
+                        <th>Fourth-Quarter</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-success text-end">
+
+                        <td class="text-center fw-bold">2019</td>
+                        <td>$2345</td>
+                        <td>$3545</td>
+                        <td>$3457</td>
+                        <td>$3457</td>
+                        <td class="text-danger">$4353</td>
+                    </tr>
+                    <tr class="text-end">
+                        <td class="text-center fw-bold">2020</td>
+                        <td>$7686</td>
+                        <td>$2346</td>
+                        <td>$653</td>
+                        <td>$1237</td>
+                        <td class="text-danger">$8765</td>
+                    </tr>
+                    <tr class="table-success text-end">
+                        <td class="text-center fw-bold">2021</td>
+                        <td>$6334</td>
+                        <td>$2464</td>
+                        <td>$2436</td>
+                        <td>$2347</td>
+                        <td class="text-danger">$5673</td>
+                    </tr>
+                    <tr class="text-end">
+                        <td class="text-center fw-bold">2022</td>
+                        <td>$7686</td>
+                        <td>$2346</td>
+                        <td>$653</td>
+                        <td>$1237</td>
+                        <td class="text-danger">$8765</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="text-end">
+                        <th colspan="5" class="text-end fw-bold">Total</th>
+                        <th class="text-danger">$15370</th>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+    </div>
+
+    <div id="aboutUs" class="container mb-5 pb-3">
+        <h2>About Us</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni veniam, dignissimos illo dolorum ex odio quis
+        atque
+        dolor molestias ipsam consequatur doloribus, repudiandae ab perferendis culpa placeat, reiciendis sequi!
+        Necessitatibus ea rerum sed enim. Labore expedita pariatur ipsa dolore animi sapiente dicta ullam commodi unde
+        tempore, deserunt voluptate nihil suscipit quos sit, aspernatur nulla! Ex ipsam optio, modi necessitatibus
+        voluptatibus officia molestias quibusdam. Natus labore, quas pariatur consectetur iure ut incidunt quis eaque
+        porro
+        nostrum ab at facere possimus, voluptatem commodi! Quidem sed impedit est laborum exercitationem. Inventore
+        repudiandae quod saepe deserunt ad, excepturi quaerat quidem libero quasi earum ducimus beatae at dolore neque,
+        voluptatem aut voluptas, esse odio officiis explicabo sed accusantium. Libero praesentium laboriosam
+        perspiciatis
+        qui veniam tempore cumque nemo repellendus quam. Consectetur libero officia ea quis, soluta fugiat sint pariatur
+        a,
+        laboriosam eos maxime quasi adipisci voluptate laborum error qui doloribus cum corporis ipsum. Distinctio
+        corporis
+        odio quidem aut magni fuga harum sed impedit nihil accusamus atque rem, nesciunt deleniti at quaerat ullam.
+        Voluptatibus, officiis dolores. Enim animi deleniti quaerat aut, tempora deserunt vitae sit aperiam minima quo
+        id
+        placeat explicabo quia perspiciatis obcaecati rem odit magni omnis perferendis consectetur et atque. Cum
+        asperiores,
+        inventore ratione magnam ad error quasi perferendis nemo, totam suscipit saepe atque eius. Quaerat illum soluta
+        earum rerum enim quidem qui laboriosam? Iure rem dignissimos sequi culpa velit quidem illum aliquid odit vel
+        maxime,
+        soluta dicta ut voluptatem consequuntur voluptates provident quae impedit, cumque excepturi sint vero
+        consectetur.
+        Facilis in odio optio repudiandae porro! Optio consequuntur eius eaque? Minima aliquid perferendis expedita
+        nesciunt
+        voluptas accusantium quam? Est quasi veniam ad, totam, consectetur unde obcaecati ratione libero ducimus,
+        repudiandae expedita fugit rem? Ab beatae, aut iure, tempora non animi illo et consequuntur dolore aspernatur
+        cupiditate quas esse optio, mollitia nostrum doloremque. Impedit voluptas minus in labore nostrum voluptates,
+        dicta
+        sit! Beatae a fugit nam incidunt provident? Nemo sunt veniam doloremque impedit quibusdam, soluta consequatur
+        explicabo adipisci esse voluptate, fugiat temporibus vitae totam delectus id dolor, perspiciatis eligendi est
+        quidem. Expedita molestiae dicta quia ab ducimus dignissimos iste exercitationem doloribus nulla, maxime, sed
+        pariatur neque nihil vitae quae iure at debitis ratione. Adipisci perspiciatis eligendi, doloribus pariatur
+        sequi
+        magni? Obcaecati a, dolorem velit nisi optio consectetur, dolores doloremque ad nam, quam quasi quos soluta sint
+        accusantium magnam porro saepe doloribus voluptatum iure. Alias, ipsum dicta enim, possimus velit pariatur
+        facilis
+        sequi laboriosam sed doloribus nulla architecto at delectus ullam quos nesciunt maxime cumque inventore autem
+        vel?
+        Veniam, a soluta. Vel, incidunt ipsam quisquam eos, quas optio delectus sed laborum maiores amet, fugit
+        assumenda?
+        Sapiente dignissimos ratione officia non expedita nostrum dolor ut nihil temporibus nulla laboriosam,
+        praesentium
+        adipisci at facere soluta repudiandae, dolore repellendus tempora dolorum. Similique provident mollitia itaque
+        molestias a, laboriosam, pariatur tempore repudiandae consectetur dignissimos expedita voluptatum commodi
+        corporis
+        illum reiciendis reprehenderit accusantium facere enim eligendi earum, vero corrupti at! Adipisci distinctio
+        saepe
+        repudiandae optio asperiores, neque libero dolor eos nostrum, sunt ex, atque molestias! Ipsam vel porro
+        asperiores
+        ullam, quas non.
+    </div>
+    <footer class=" bg-dark fixed-bottom py-3">
+        <div class="container text-white">© PCS 2022</div>
+    </footer>
+
+
+</body>
+
+</html>
