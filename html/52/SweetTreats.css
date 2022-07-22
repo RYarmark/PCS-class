@@ -1,0 +1,36 @@
+html {
+    background-color: white;
+    color: rgb(133, 131, 131);
+}
+
+
+
+Header {
+    border: 6px double rgb(253, 108, 130);
+    border-radius: 10%;
+    color: rgb(136, 135, 135);
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 2pt;
+
+}
+
+h1{
+    text-transform: uppercase;
+}
+nav {
+    padding-top: em;
+    font-size: 12pt;
+    font-weight: normal;
+    
+}
+
+
+img {
+
+    padding: .5em .75em;
+    padding-top: .5em;
+    margin-top: .25em;
+
+}

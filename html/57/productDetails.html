@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details</title>
+    <link rel="stylesheet" href="SweetTreats.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" href="../icon/site.webmanifest">
+    <link rel="mask-icon" href="../icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+    <style>
+        td {
+            border: 1px solid black;
+            padding: .5em;
+        }
+
+
+        tbody tr:nth-child(2n+1) {
+            background-color: rgba(251, 98, 185, 0.967);
+            ;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: rgb(251, 176, 218);
+            ;
+        }
+
+        td:first-child {
+            font-size: large;
+
+        }
+
+        td:last-child {
+            text-align: right;
+        }
+
+        td:nth-child(2) {
+            text-align: right;
+        }
+
+        tbody tr:nth-child(2n+1) td:last-child {
+            background-color: rgb(151, 150, 150);
+        }
+
+        tbody tr:nth-child(2n) td:last-child {
+            background-color: rgb(203, 201, 201);
+        }
+
+        table {
+            width: 70%;
+            margin: auto;
+            padding-top: 5em;
+            border-collapse: collapse;
+            margin-top: 4em;
+            margin-bottom: 5em;
+        }
+
+        th {
+            font-weight: bold;
+            font-size: larger;
+
+        }
+
+        tfoot td {
+            background-color: rgb(70, 70, 70);
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="top">Sweet Treats</h1>
+        <h2>Product Details</h2>
+    </header>
+    <nav>
+        <img src="../images/HomeIcon.jpg" />
+        <a href="Index.html">Home</a>
+    </nav>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Customer Rating</th>
+                <th>Notes</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Four layer ruffled cake</td>
+                <td>4 star</td>
+                <td>Available in gulten free</td>
+                <td>$175</td>
+            </tr>
+            <tr>
+                <td>Three layer rose cake</td>
+                <td>5 star</td>
+                <td>Must be ordered in advance</td>
+                <td>$220</td>
+            </tr>
+            <tr>
+                <td>Rose decor layer cake</td>
+                <td>4.25 star</td>
+                <td></td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td>Chocolate decor</td>
+                <td>4 star</td>
+                <td>Contains Nuts</td>
+                <td>$75</td>
+            </tr>
+            <tr>
+                <td>Oreo cookie cake</td>
+                <td>4.5 star</td>
+                <td>Curently unavailable</td>
+                <td>$75</td>
+            </tr>
+            <tr>
+                <td>Vanhilla sprinkle cake</td>
+                <td>3 star</td>
+                <td>Dairy Free. Nut Free</td>
+                <td>$50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>This</td>
+            <td>Footer</td>
+            <td>Isn't</td>
+            <td>Necessary</td>
+        </tfoot>
+    </table>
+    <div class="toTop">
+        <a href="#top">To top</a>
+    </div>
+
+    <div>
+        <h4> 234 Raspbery Road </h4>
+        <h4>Phone: 234-567-8910</h4>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+* {
+    font-weight: normal;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+html {
+    background-color: white;
+    color: black;
+    max-width: 100%;
+}
+
+Header {
+    border: 8px double rgb(249, 80, 175);
+    text-transform: capitalize;
+    border-radius: 10%;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 4pt;
+    line-height: 16.;
+    letter-spacing: .35em;
+    text-shadow: 2px 2px 4px rgb(86, 86, 86);
+    font-family: 'Charm', cursive;
+    font-size: 2em;
+    padding: 10pt;
+
+}
+
+nav {
+    position: fixed;
+    border: 0px solid rgb(249, 80, 175);
+    padding: 0;
+    padding-top: em;
+    font-size: 12pt;
+    font-weight: normal;
+
+}
+
+.category,
+.item {
+    text-align: center;
+    margin-top: 3em;
+    font-family: "lucida calligraphy", cursive;
+
+}
+
+.category img,
+.item img {
+    border: 3px solid rgb(249, 80, 175);
+
+    height: 200px;
+    width: 175;
+    margin-top: 4pt;
+    margin-bottom: .5em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(121, 121, 121);
+}
+
+body {
+    background-image: url("../images/Background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+video {
+    border: 3px solid rgb(249, 80, 175);
+    height: 10em;
+    width: 13;
+}
+
+.video {
+    text-align: center;
+    padding: 10px;
+    margin-top: 3em;
+    margin-bottom: .5em;
+}
+
+.toTop {
+   
+    text-align: right;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: larger;
+    font-weight: bolder;
+    
+}

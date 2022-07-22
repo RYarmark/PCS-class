@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: 250px 50px 50px 250px;
+            grid-template-columns: 250px 50px 50px 250px;
+            grid-template-areas:
+                ". r r ."
+                "g r2 p2 p"
+                "g g2 b2 p"
+                ". b b .";
+        }
+
+        .red {
+            grid-area: r;
+            background-color: red;
+        }
+
+        .red2 {
+            grid-area: r2;
+            background-color: red;
+        }
+
+        .purple {
+            grid-area: p;
+            background-color: purple;
+        }
+
+        .purple2 {
+            grid-area: p2;
+            background-color: purple;
+        }
+
+        .green {
+            grid-area: g;
+            background-color: green;
+        }
+
+        .green2 {
+            grid-area: g2;
+            background-color: green;
+        }
+
+        .brown {
+            grid-area: b;
+            background-color: brown;
+        }
+
+        .brown2 {
+            grid-area: b2;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="red"></div>
+    <div class="red2"></div>
+    <div class="purple"></div>
+    <div class="purple2"></div>
+    <div class="green"></div>
+    <div class="green2"></div>
+    <div class="brown"></div>
+    <div class="brown2"></div>
+
+
+
+
+</body>
+
+</html>
