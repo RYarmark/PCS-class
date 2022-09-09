@@ -19,6 +19,8 @@ window.myApp.utilsB = (function (counterB) {
 
 }(window.myApp.utilsB || {}));
 
+// SL - nice. Same comments about utilsB as for utilsA
+
 
 
 

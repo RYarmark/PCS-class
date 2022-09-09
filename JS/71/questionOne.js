@@ -17,5 +17,5 @@ const a = myMap(nums, doMath);
 console.log(nums);
 console.log(a);
 
-
+// SL - nice! (but even better if you use the specific example I asked for...)
 

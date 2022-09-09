@@ -1,5 +1,6 @@
 'use strict';
 
+// SL - no for loops???
 window.myApp.utilsA.increment();
 window.myApp.utilsA.increment();
 window.myApp.utilsA.increment();
@@ -39,5 +40,7 @@ console.log(window.myApp.utilsA.getCount());
 console.log(counter1.getCount());
 console.log(counter2.getCount());
 
+// SL - nice!
+// grade - 100
 
 
