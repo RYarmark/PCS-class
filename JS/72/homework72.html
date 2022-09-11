@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            text-align: center;
+            margin: 3em;
+            font-size: x-large;
+            font-weight: bold;
+            font-family: 'Lucida calligraphy', 'Lucida Sans Regular', 'Lucida Grande', Geneva, Verdana, sans-serif;
+        }
+
+        button {
+            margin-left: 1em;
+            margin-bottom: 3em;
+        }
+
+        table {
+            color: black;
+            border-collapse: collapse;
+
+        }
+
+        tr,
+        td {
+            height: 5px;
+            border: 3px solid black;
+        }
+
+        h3 {
+            color: #000;
+        }
+
+        td:first-child,
+        tr:first-child {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a line with some text</p>
+    <p>This is a line with more text</p>
+    <p>This is a third line with text</p>
+    <button id="start">Change colors</button>
+    <button id="stop">Stop</button>
+    <h3>Click a row on the table to select those colors</h3>
+    <table id="colors">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Background Color</th>
+                <th>Text Color</th>
+            </tr>
+        </thead>
+
+    </table>
+
+    <script src="homework72.js"></script>
+</body>
+
+</html>
