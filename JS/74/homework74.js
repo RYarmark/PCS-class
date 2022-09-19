@@ -40,7 +40,6 @@ window.app.messageBox = (function () {
     }
     function test() {
         document.getElementById('messageBox').style.backgroundColor = this.innerText;
-        console.log('this works');
     }
 
     return {
