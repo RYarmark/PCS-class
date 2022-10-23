@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #face {
+            width: 350px;
+            height: 350px;
+            border: 5px ridge darkblue;
+            border-radius: 100%;
+            margin: 3em;
+            background-image: radial-gradient(circle, white, blue);
+            position: relative;
+
+        }
+
+        #center {
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            position: absolute;
+            top: 48%;
+            left: 48%;
+            background-color: darkblue;
+        }
+
+        span {
+            position: absolute;
+            font-weight: bold;
+            font-size: larger;
+            color: darkblue;
+        }
+
+        span:nth-child(1) {
+            top: 5%;
+            left: 48%;
+        }
+
+        span:nth-child(2) {
+            top: 48%;
+            right: 5%;
+        }
+
+        span:nth-child(3) {
+            bottom: 5%;
+            right: 48%;
+        }
+
+        span:nth-child(4) {
+            top: 48%;
+            left: 5%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="face">
+        <div id="center"></div>
+        <div id="numbers">
+            <span>12</span>
+            <span>3</span>
+            <span>6</span>
+            <span>9</span>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>
