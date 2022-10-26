@@ -74,4 +74,5 @@
     window.setInterval(() => { moveHand('secondHand', ((getTime().second * 6) + 'deg')); }, 1000);
 
 
+
 }());
