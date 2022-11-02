@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Ice cream",
+        "pic": "iceCream.jpg",
+        "ing": [
+            "Cream,",
+            "Milk,",
+            "Sugar,",
+            "Flavor"
+        ]
+    }
+]
