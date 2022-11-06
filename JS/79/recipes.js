@@ -45,6 +45,7 @@
             ingDiv.append(`${ing}\n`));
     }
     getRecipeList();
+    
 
 
 })();
