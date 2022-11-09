@@ -1,0 +1,18 @@
+[
+    {
+        "image": "photos/music/instruments.jpg",
+        "caption": "Musical instruments"
+    },
+    {
+        "image": "photos/music/music.jpg",
+        "caption": "Sheet music"
+    },
+    {
+        "image": "photos/music/notes.png",
+        "caption": "Music notes"
+    },
+    {
+        "image": "photos/music/violin.jpg",
+        "caption": "Violin"
+    }
+]

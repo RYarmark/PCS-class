@@ -1,0 +1,18 @@
+[
+    {
+        "image": "photos/vehicles/bus.jpg",
+        "caption": "Bus"
+    },
+    {
+        "image": "photos/vehicles/car.jpg",
+        "caption": "Car"
+    },
+    {
+        "image": "photos/vehicles/train.jpg",
+        "caption": "Train"
+    },
+    {
+        "image": "photos/vehicles/truck.jpg",
+        "caption": "Truck"
+    }
+]

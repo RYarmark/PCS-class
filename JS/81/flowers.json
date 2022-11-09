@@ -1,0 +1,18 @@
+[
+    {
+        "image": "photos/flowers/daisy.jpg",
+        "caption": "Daisies"
+    },
+    {
+        "image": "photos/flowers/gardenia.jpg",
+        "caption": "Gardenias"
+    },
+    {
+        "image": "photos/flowers/lilies.jpg",
+        "caption": "Lilies"
+    },
+    {
+        "image": "photos/flowers/rose.jpg",
+        "caption": "Roses"
+    }
+]
