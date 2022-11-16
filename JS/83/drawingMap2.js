@@ -159,6 +159,7 @@
             });
         }
     });
+
     function drawMarkers(oldMarker) {
         const marker = new google.maps.Marker({
             map: map,
