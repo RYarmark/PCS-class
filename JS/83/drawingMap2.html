@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Global</title>
+    <style>
+        html,
+        body,
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        #search {
+            margin: 10px;
+        }
+
+        #error {
+            color: red;
+            background-color: white;
+            border: 3px solid black;
+            padding: 3em;
+            display: none;
+            text-align: center;
+            width: 20%;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            align-self: center;
+        }
+
+        #resume {
+            background-color: rgba(255, 255, 255, 0.833);
+            border: 3px solid black;
+            padding: 2.5em;
+            text-align: center;
+            width: 20%;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            align-self: center;
+            display: none;
+            padding-bottom: 1em;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 2em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <input id="search" placeholder="Search for anything">
+    <button id="go" type="submit">Go</button>
+    <button class='button' id='clear'>Clear</button>
+    <div id="map"></div>
+    <div id="error">Error!</div>
+    <div id="resume">Continue where you left off?
+        <div>
+            <button class='button' id='yes'>Yes</button>
+            <button class='button' id='no'>No</button>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&v=weekly&libraries=drawing"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="drawingMap2.js"></script>
+</body>
+
+</html>
