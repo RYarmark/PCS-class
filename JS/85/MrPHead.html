@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Head</title>
+    <link rel="stylesheet" type="text/css" href="MrPHead.css">
+
+</head>
+
+<body>
+    <div id="pallet">
+        <button id="add">New Potato Head</button>
+        <select id="room">
+            <option value="" disabled selected hidden>Change Room</option>
+            <option value="bedroom">Bed Room</option>
+            <option value="diningroom">Dining Room</option>
+            <option value="livingroom">Living Room</option>
+
+        </select>
+        <ul>
+            <li>
+                <span>Hats</span>
+                <img src="images/hat.png">
+                <div class="moreParts">
+                    <img src="images/hat1.png">
+                    <img src="images/hat2.png">
+                    <img src="images/hat3.png">
+                    <img src="images/hat4.png">
+
+                </div>
+            </li>
+            <li>
+                <span>Eyes</span>
+                <img src="images/eyes.png">
+                <div class="moreParts">
+                    <img src="images/eyes.gif">
+                    <img src="images/eyes1.png">
+                    <img src="images/eyes2.png">
+                    <img src="images/eyes3.png">
+
+                </div>
+            </li>
+            <li>
+                <span>Ears</span>
+                <img src="images/earR.png">
+                <img src="images/earL.png">
+                <div class="moreParts">
+                    <img src="images/earR.png">
+                    <img src="images/earL.png">
+                </div>
+            </li>
+            <li>
+                <span>Nose</span>
+                <img src="images/nose1.png">
+                <div class="moreParts">
+                    <img src="images/nose.png">
+                    <img src="images/nose2.png">
+                    <img src="images/nose3.png">
+                </div>
+            </li>
+            <li>
+                <span>Mouth</span>
+                <img src="images/mouth.png">
+                <div class="moreParts">
+                    <img src="images/mouth1.png">
+                    <img src="images/mouth2.png">
+                    <img src="images/mouth3.png">
+                </div>
+            </li>
+            <li>
+                <span>Feet</span>
+                <img src="images/shoes.png">
+                <div class="moreParts">
+                    <img src="images/shoeR.png">
+                    <img src="images/shoeL.png">
+                    <img src="images/shoes2.png">
+                </div>
+            <li>
+                <span>Accesseries</span>
+                <img src="images/Picture12.png">
+                <div class="moreParts">
+                    <img src="images/Picture20.png">
+                    <img src="images/Picture14.png">
+                    <img src="images/Picture23.png">
+                    <img src="images/Picture25.png">
+                </div>
+            </li>
+            </li>
+        </ul>
+    </div>
+    <div id="firstLoad">
+        <span>Welcome to Mr. Potato Head</span>
+        <img src="images/potato head.gif">
+        <span>Drag pieces to make a Mr. potato Head.<br></span>
+        <span>Click on an item then click on the grabage to delete it.</span>
+        <button id='ok'>OK</button>
+    </div>
+    <div id='mainArea'>
+        <form>
+            <label>Game Name</label>
+            <input id="gameName" value="Game 1">
+        </form>
+        <button id="save" type="submit">Save</button>
+        <button id="reset">New Game</button>
+        <select id="game">
+            <option value="" disabled selected hidden>Load saved game</option>
+        </select>
+        <audio controls loop>
+            <source src='images/music.mp3'>
+        </audio>
+    </div>
+    <div id="garbage">
+        <img src="images/garbagecan2.png" id="delete">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="MrPHead.js"></script>
+</body>
+
+</html>

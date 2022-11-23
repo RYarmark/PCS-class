@@ -1,0 +1,115 @@
+body {
+    background-image: url('images/livingroom.png');
+    background-size: cover;
+}
+
+#potatoHead {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    border-radius: 400px 400px 350px 350px;
+}
+
+#mainArea,
+#pallet {
+    float: left;
+}
+
+#pallet {
+    width: 25%;
+    overflow: auto;
+}
+
+#pallet ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pallet li {
+    font-weight: bold;
+    padding-left: 1em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    background-color: white;
+    opacity: .85;
+    padding: 5px;
+}
+
+.moreParts {
+    display: none;
+}
+
+#pallet li div img,
+#pallet li img {
+    max-width: 100px;
+    max-height: 75px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+button {
+    margin: 10px;
+}
+
+#firstLoad {
+    background-color: white;
+    opacity: .85;
+    border: 3px solid black;
+    padding: 3em;
+    display: none;
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    align-self: center;
+    z-index: 1;
+}
+
+#firstLoad img,
+#firstLoad button {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#delete {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+
+audio {
+    position: fixed;
+    bottom: 3%;
+}
+
+label {
+    background-color: white;
+    padding: 2px;
+}
+
+form {
+    position: absolute;
+    top: 18px;
+    right: 80px;
+}
+
+#game {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+}
+
+#save {
+    position: absolute;
+    right: 10px;
+}
+
+#reset {
+    position: absolute;
+    top: 50px;
+    right: 140px
+}
