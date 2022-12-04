@@ -2,12 +2,12 @@
 
 class Person {
     constructor(first, last, age) {
-        this.first = first;
-        this.last = last;
+        this._first = first;
+        this._last = last;
         if (age < 0 || age > 120) {
             throw new Error('Invalid age.');
         }
-        this.age = age;
+        this._age = age;
     }
 
     toString() {
@@ -24,7 +24,7 @@ class Person {
 class Student extends Person {
     constructor(first, last, age, grade) {
         super(first, last, age);
-        this.grade = grade;
+        this._grade = grade;
     }
 }
 const p = new Person('Jack', 'Smith', '35');
