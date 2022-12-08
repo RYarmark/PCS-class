@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Ants</title>
+
+    <style>
+        body {
+            margin: 0px;
+            background-image: url('images/antHole1.jpg');
+            background-size: cover;
+        }
+
+        #controls {
+            position: absolute;
+            text-align: center;
+            margin: 15px;
+        }
+
+        #amount {
+            width: 50px;
+        }
+
+        img {
+            position: absolute;
+        }
+
+        #apple {
+            top: 600px;
+            left: 600px;;
+        }
+        #cookie{
+            top: 200px;
+            left: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="controls">
+        <select id='size'>
+            <option value="6" disabled selected hidden>Size</option>
+            <option value="4">Small</option>
+            <option value="6">Medium</option>
+            <option value="8">Large</option>
+        </select>
+        <input id="color" type="color">
+        <input id='amount' type="number" value="10">
+        <button id="addAnts">Add Ants</button>
+        <img id='apple' src="images/apple1.png">
+        <img id='cookie' src="images/cookie1.png">
+    </div>
+    <script src="ants.js"></script>
+</body>
+
+</html>
