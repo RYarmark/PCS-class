@@ -1,0 +1,49 @@
+[
+    {
+        "customer": "Joe",
+        "address": " 555 Main Street New York",
+        "items": []
+    },
+    {
+        "customer": "Jack",
+        "address": " 123 Main Street New York",
+        "items": [
+            {
+                "name": "chocolate",
+                "total": 6.45,
+                "quantity": 5
+            },
+            {
+                "name": "pretzels",
+                "total": 1.05,
+                "quantity": 3
+            },
+            {
+                "name": "ice cream",
+                "total": 5.49,
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "customer": "Jill",
+        "address": " 987 Main Street New York",
+        "items": [
+            {
+                "name": "chocolate",
+                "total": 3.87,
+                "quantity": 3
+            },
+            {
+                "name": "cookies",
+                "total": 7.50,
+                "quantity": 10
+            },
+            {
+                "name": "pretzels",
+                "total": 1.75,
+                "quantity": 5
+            }
+        ]
+    }
+]
