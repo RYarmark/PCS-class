@@ -26,7 +26,7 @@
         div.id = 'orderDiv';
         div.innerText = `Customer: ${order.customer} \n
         Address: ${order.address} \n
-        Total: $${order.orderTotal}\n 
+        Total: $${order.orderTotal}\n
         \n` ;
 
         div.append('Items:');
@@ -58,6 +58,8 @@
             this.items = items;
 
         }
+
+        // SL - I think this name is a little redundant. Were in Order class, no need to prefix "order" on all order functions
         get orderTotal() {
             let total = 0;
             this.items.forEach(item => {
@@ -70,3 +72,6 @@
 
 
 })();
+
+// SL - nice!
+// SL - grade 100
