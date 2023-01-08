@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+        const text = 'Hi There!'
+
+        function message() {
+            return <h1>{text} {getTime()}</h1>;
+        }
+
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(message());
+
+        function getTime() {
+            let now = new Date();
+            let hour = now.getHours()
+
+            if (hour < 12) {
+                return "Good Morning"
+            }
+            else if (hour < 16) {
+                return "Good Evening"
+            }
+            else {
+                return "Good Night"
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
