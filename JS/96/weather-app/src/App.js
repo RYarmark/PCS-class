@@ -3,7 +3,7 @@ import './App.css';
 import React, { Component } from 'react';
 import Weather from './weather';
 
-const key = 'e265cbe5957cf53a44bef1f942010570';
+const key = ;
 
 export default class App extends Component {
 
