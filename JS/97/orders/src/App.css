@@ -1,0 +1,15 @@
+ul{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+li{
+  padding: 5px
+}
+body{
+  margin: 10px;
+}
+span{
+  display: block;
+  border: solid black 1px;
+}
