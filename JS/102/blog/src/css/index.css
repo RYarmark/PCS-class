@@ -1,0 +1,49 @@
+#header {
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    border: 3px solid black;
+    margin: 10px;
+    color: black;
+    background-image: linear-gradient(to bottom right, mediumseagreen, lightseagreen);
+
+}
+
+#homePage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+#postPage {
+    padding: 5px;
+}
+
+#blog,
+#post,
+#comment {
+    padding: 10px;
+
+}
+
+span {
+    display: block;
+}
+
+#error {
+    display: none;
+}
+
+button {
+    margin-top: 8px;
+}
+
+h3 {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin: 2px;
+    padding-left: 2px;
+}
