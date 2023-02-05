@@ -1,0 +1,7 @@
+#body {
+    background-image: url('./house2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38em;
+    margin: 0px;
+}
