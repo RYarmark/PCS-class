@@ -5,7 +5,6 @@ export default function Home() {
     const { data: blogs, loading, error } = useFetch('https://jsonplaceholder.typicode.com/users')
 
     function populateData(blog) {
-      
         return <li key={blog.id}> <Blog data={blog} />
         </li>
     }
