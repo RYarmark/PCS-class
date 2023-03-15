@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    <form>
+        what is your name: <input name="name" value="{{name}}" />
+        <button>submit</button>
+    </form>
+    <h3>You have visited this site {{visits}} time(s)</h3>
+</body>
+
+</html>
