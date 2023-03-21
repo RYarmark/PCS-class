@@ -3,13 +3,14 @@ import { Link, useParams } from "react-router-dom";
 import Post from "./post";
 import pic from "./homeIcon.png"
 
+// SL - file name should usually be same as name of component...
 export default function Posts(props) {
     const { id } = useParams();
     const { data, loading, error } = useFetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`);
     //        <img src="./homeIcon.png" alt = "Home" onClick={<Link to={"/"}/>}>Home</img>
     return (
         <>
-      
+
 
         <Link to="/"><img src={pic} alt = "Home" ></img><span>Home</span></Link>
             {error && <div>We encountered an error while loading data.</div>}

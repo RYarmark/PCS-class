@@ -16,3 +16,6 @@ root.render(
 
 
 reportWebVitals();
+
+// SL - router. Yay!
+// SL - nice!

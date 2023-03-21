@@ -10,10 +10,12 @@ const error = document.getElementById('error');
 homePage();
 
 // load data
-// for each object in response, perform appropriate action to populate page with data. 
+// for each object in response, perform appropriate action to populate page with data.
 async function loadJson(url, action, div) {
     try {
         const response = await fetch(url);
+        // SL - you have a catch which is good, but no check for response.ok. Hope it worked...
+
         const data = await response.json();
         data.forEach(d => action(d, div));
     }
@@ -59,6 +61,8 @@ function createPost(post) {
     const data = [];
     data.push(post.title);
     data.push(post.body);
+
+    // SL - posts should be undefined. you luck out (or maybe you did this on purpose?) in that all elements are available as globals by their id so posts finds the posts element by that global even though you never got it yourself. Relying on globals is bad...
     const div = dispalyData(posts, 'post', data);
 
     const button = document.createElement('button');
@@ -93,7 +97,7 @@ function createComment(comment, div) {
 }
 
 //create div to hold data.
-//for each piece of data, create element and set data as text 
+//for each piece of data, create element and set data as text
 // title(data[0])goes in h3 else us span
 // append new element to parentElm and return the new div for further use.
 
@@ -117,3 +121,5 @@ function dispalyData(parentElem, id, data) {
 }
 
 
+// SL - webpack yay! but why not use dev server and html plugin etc.. to make it easier to work with?
+// SL - nice!

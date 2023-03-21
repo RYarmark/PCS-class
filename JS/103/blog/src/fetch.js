@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+// SL - nice! (but hooks usually return an array - I was thrown off by the return of an object. Nothing illegal, just a little unusual)
 export default function useFetch(url) {
 
     const [loading, setLoading] = useState(false);
